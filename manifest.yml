@@ -9,6 +9,6 @@ applications:
   buildpack: https://github.com/cloudfoundry/java-buildpack.git
   env:
     SPRING_PROFILES_ACTIVE: cloud
-  #services:
-  #- service-registry
-  #- config-server
+  services:
+  - log-drain
+  - app-monitoring
