@@ -11,4 +11,4 @@ applications:
     SPRING_PROFILES_ACTIVE: cloud
   services:
   - log-drain
-  - app-monitoring
+  - newrelic
